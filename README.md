@@ -8,5 +8,5 @@ HTML
 CSS 
 JavaScript
 
-💻 Projeto O school é uma aplicação de controle de notas escolares, que mostrará para o usuário, suas notas de dois bimestres,
+💻 Projeto dev.school é uma aplicação de controle de notas escolares, que mostrará para o usuário, suas notas de dois bimestres,
 sua maior nota, sua menor nota e sua média final de todas as matérias/todos os bimestres.
