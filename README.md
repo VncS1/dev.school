@@ -2,7 +2,7 @@ Projeto feito para estudar e aprender mais com o que foi explicado no curso Disc
 
 🚀 Tecnologias 
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 HTML 
 CSS 
