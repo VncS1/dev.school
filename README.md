@@ -4,8 +4,8 @@ Projeto feito para estudar e aprender mais com o que foi explicado no curso Disc
 
 Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
-HTML 
-CSS 
+HTML <br />
+CSS <br />
 JavaScript
 
 💻 Projeto dev.school é uma aplicação de controle de notas escolares, que mostrará para o usuário, suas notas de dois bimestres,
