@@ -40,7 +40,7 @@
         </section>
 
         <section id="grades">
-            <a class="new-grade" href="#">Adicionar Nota</a>
+            <a onClick="Modal.open()" class="new-grade" >Adicionar Nota</a>
 
             <table id="data-table">
                 <thead>
@@ -75,6 +75,28 @@
             </table>
         </section>
     </main>
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <div class="modal-content">
+                <div id="form">
+                    <h3>Adicionar Nota</h3>
+                    <form action="">
+                        <input type="text" name="materia" placeholder="Matéria"/>
+                        <select id="bimestre" name="bimestre">
+                            <option value="">Escolha o Bimestre</option>
+                            <option value="1">1° Bimestre </option>
+                            <option value="2">2° Bimestre </option>
+                        </select>
+                        <input type="number" name="nota" id="nota" placeholder="Nota"/>
+                        <small>As notas vão de 1 até 10</small>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <scripts src="./script.js"></scripts>
 </body>
 
 </html>
