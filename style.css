@@ -115,19 +115,19 @@ header img {
 /* TABELA DE NOTAS ------------------------ */
 #grades {
 
-    width: 100%;
+    width: 85%;
     overflow-x: auto;
 
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
     padding: 3rem 0rem;
-
 }
 
 a.new-grade {
-    position: relative;
-    bottom: 3rem;
-    left: 7.5rem;
+
+    margin-bottom: 1.5rem;
     white-space: nowrap;
 
     cursor: pointer;
@@ -215,10 +215,6 @@ table td img {
 
 /*FORM ------------------------------------- */
 
-#form {
-
-}
-
 #form h3 {
     text-align: center;
     padding-bottom: 0.5rem;
@@ -247,7 +243,39 @@ small {
     margin-top: -1rem;
 }
 
+/* BOTÕES DO MODAL ------------------------*/
 
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 0rem;
+
+    font-size: 1rem;
+}
+
+.button.add {
+    background: #a348b9;
+    border: none;
+    padding: 0.8rem 3.5rem;
+
+    color: #fff;
+    border-radius: 0.25rem;
+
+    cursor: pointer;
+}
+
+.button.cancel {
+    border: solid 1px #c41919;
+    padding: 0.7rem 3.5rem;
+
+    color: #c41919;
+    border-radius: 0.25rem;
+
+    cursor: pointer;
+}
+}
 /* RESPONSIVIDADE ---------------------------*/
 
 @media(max-width: 1024px) {
@@ -298,7 +326,7 @@ small {
     }
 
     a.new-grade {
-        left: 8rem;
+        left: 0rem;
         white-space: nowrap;
     }   
 }
@@ -306,13 +334,8 @@ small {
 @media(max-width: 425px) {
     table#data-table {
         overflow-x: auto;
-        margin-left: 17rem;
         padding-right: 1rem;
         
-    }
-    a.new-grade {
-        position: relative;
-        left: 24.5rem;
     }
 
     table td{
@@ -327,16 +350,10 @@ small {
 
     table#data-table {
         overflow-x: auto;
-        margin-left: 19rem;
         padding-right: 1rem;
         
     }
     a.new-grade {
-        position: relative;
-        left: 26.5rem;
-    }
-
-    table td{
-        margin-left: 5rem;
+        left: 0rem;
     }
 }
