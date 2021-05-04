@@ -40,7 +40,7 @@
         </section>
 
         <section id="grades">
-            <a onClick="Modal.open()" class="new-grade" >Adicionar Nota</a>
+            <a onClick="Modal.open()" class="new-grade" href="#" >Adicionar Nota</a>
 
             <table id="data-table">
                 <thead>
@@ -76,7 +76,7 @@
         </section>
     </main>
 
-    <div class="modal-overlay">
+    <div class="modal-overlay active">
         <div class="modal">
             <div class="modal-content">
                 <div id="form">
@@ -90,13 +90,17 @@
                         </select>
                         <input type="number" name="nota" id="nota" placeholder="Nota"/>
                         <small>As notas vão de 1 até 10</small>
+                        <div class="buttons">
+                            <a onClick="Modal.close()" class="button cancel" >Cancelar</a>
+                            <button type="submit" name="enviar" class="button add">Adicionar</button>
+                        </div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
 
-    <scripts src="./script.js"></scripts>
+    <script src="./scripts.js"></script>
 </body>
 
 </html>
